@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+             xmlns:g="urn:import:com.google.gwt.user.client.ui">
+
+    <ui:style src="DashboardView.css" />
+
+    <g:HTMLPanel>
+        <g:FlowPanel ui:field="cards" styleName="{style.cards}" />
+
+        <div class="{style.panel}">
+            <h3 class="{style.panelTitle}">Progresso geral</h3>
+            <div class="{style.progressTrack}">
+                <div ui:field="progressBar" class="{style.progressBar}"></div>
+            </div>
+            <g:Label ui:field="progressLabel" styleName="{style.progressLabel}" />
+        </div>
+
+        <div class="{style.panel}">
+            <h3 class="{style.panelTitle}">Atividades recentes</h3>
+            <g:FlowPanel ui:field="activity" styleName="{style.activity}" />
+        </div>
+    </g:HTMLPanel>
+</ui:UiBinder>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+             xmlns:g="urn:import:com.google.gwt.user.client.ui">
+
+    <ui:style src="MainLayout.css" />
+
+    <g:HTMLPanel styleName="{style.shell}">
+        <aside class="{style.sidebar}">
+            <div class="{style.brand}">
+                <span class="{style.brandMark}">TF</span>
+                <span>TaskFlow</span>
+            </div>
+            <g:FlowPanel ui:field="navPanel" styleName="{style.nav}" />
+        </aside>
+
+        <div class="{style.main}">
+            <header class="{style.topbar}">
+                <div>
+                    <g:Label ui:field="pageTitle" styleName="{style.pageTitle}" />
+                    <g:Label ui:field="breadcrumb" styleName="{style.breadcrumb}" />
+                </div>
+                <g:Button ui:field="newTaskButton" styleName="{style.primaryButton}">
+                    Nova tarefa
+                </g:Button>
+            </header>
+
+            <g:SimplePanel ui:field="content" styleName="{style.content}" />
+        </div>
+    </g:HTMLPanel>
+</ui:UiBinder>

@@ -1,0 +1,13 @@
+binding: user.agent=safari
+Compiling module com.mycompany.mywebapp.App
+   Unification traversed 1196 fields and methods and 751 types. 11 are considered part of the current module and 20 had all of their fields and methods traversed.
+   Compiling 1 permutation
+      Compiling permutation 0...
+      Linking per-type JS with 11 new/changed types.
+      Source Maps Enabled
+   Compile of permutations succeeded
+   Compilation succeeded -- 2,146s
+Linking into C:\Users\markos.pereira\PycharmProjects\mywebapp\target\gwt\codeserver\com.mycompany.mywebapp.App\compile-586\war\MyWebApp; Writing extras to C:\Users\markos.pereira\PycharmProjects\mywebapp\target\gwt\codeserver\com.mycompany.mywebapp.App\compile-586\extras\MyWebApp
+   Link succeeded
+   Linking succeeded -- 3,111s
+5,408s total -- Compile completed

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+             xmlns:g="urn:import:com.google.gwt.user.client.ui"
+             xmlns:d="urn:import:com.google.gwt.user.datepicker.client">
+
+    <ui:style src="TaskView.css" />
+
+    <g:HTMLPanel styleName="{style.panel}">
+        <g:Label ui:field="alert" visible="false" styleName="tf-alert" />
+
+        <div class="{style.grid}">
+            <div class="{style.field} {style.fieldWide}">
+                <span class="{style.label}">Título</span>
+                <g:TextBox ui:field="titleBox" styleName="{style.input}" />
+            </div>
+
+            <div class="{style.field} {style.fieldWide}">
+                <span class="{style.label}">Descrição</span>
+                <g:TextArea ui:field="descriptionBox" styleName="{style.textarea}" />
+            </div>
+
+            <div class="{style.field}">
+                <span class="{style.label}">Categoria</span>
+                <g:ListBox ui:field="categoryBox" styleName="{style.select}" />
+            </div>
+
+            <div class="{style.field}">
+                <span class="{style.label}">Prioridade</span>
+                <g:ListBox ui:field="priorityBox" styleName="{style.select}" />
+            </div>
+
+            <div class="{style.field}">
+                <span class="{style.label}">Responsável</span>
+                <g:TextBox ui:field="assigneeBox" styleName="{style.input}" />
+            </div>
+
+            <div class="{style.field}">
+                <span class="{style.label}">Prazo</span>
+                <d:DateBox ui:field="dueDateBox" styleName="{style.input}" />
+            </div>
+
+            <div class="{style.field}">
+                <span class="{style.label}">Status</span>
+                <g:ListBox ui:field="statusBox" styleName="{style.select}" />
+            </div>
+        </div>
+
+        <div class="{style.actions}">
+            <g:Button ui:field="saveButton" styleName="{style.save}">Salvar</g:Button>
+            <g:Button ui:field="cancelButton" styleName="{style.cancel}">Cancelar</g:Button>
+        </div>
+    </g:HTMLPanel>
+</ui:UiBinder>

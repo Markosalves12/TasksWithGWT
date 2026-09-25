@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+             xmlns:g="urn:import:com.google.gwt.user.client.ui">
+
+    <ui:style src="TaskView.css" />
+
+    <g:HTMLPanel>
+        <g:FlowPanel ui:field="toolbar" styleName="tf-toolbar" />
+        <g:SimplePanel ui:field="tableHost" />
+    </g:HTMLPanel>
+</ui:UiBinder>

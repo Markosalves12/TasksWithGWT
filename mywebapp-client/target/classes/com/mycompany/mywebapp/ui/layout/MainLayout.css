@@ -1,0 +1,28 @@
+.shell { display: flex; min-height: 100vh; background: #f3f5f9; }
+
+.sidebar {
+    width: 240px; background: #16386b; color: #e8eefb;
+    padding: 20px 14px; display: flex; flex-direction: column; gap: 22px;
+}
+.brand { display: flex; align-items: center; gap: 10px; font-size: 17px; font-weight: 600; }
+.brandMark {
+    width: 30px; height: 30px; border-radius: 8px; background: #2f5da8;
+    display: inline-flex; align-items: center; justify-content: center; font-size: 13px;
+}
+.nav { display: flex; flex-direction: column; gap: 2px; }
+
+.main { flex: 1; display: flex; flex-direction: column; min-width: 0; }
+.topbar {
+    height: 68px; background: #ffffff; border-bottom: 1px solid #e2e6ee;
+    display: flex; align-items: center; justify-content: space-between; padding: 0 26px;
+}
+.pageTitle { font-size: 18px; font-weight: 600; color: #0f172a; }
+.breadcrumb { font-size: 12px; color: #6b7692; }
+
+.primaryButton {
+    background: #16386b; color: #fff; border: 0; border-radius: 8px;
+    padding: 9px 16px; font-size: 14px; cursor: pointer;
+}
+.primaryButton:hover { background: #1d4a8c; }
+
+.content { padding: 26px; flex: 1; }

@@ -1,0 +1,14 @@
+binding: user.agent=safari
+Compiling module com.mycompany.mywebapp.App
+   Unification traversed 644 fields and methods and 362 types. 2 are considered part of the current module and 10 had all of their fields and methods traversed.
+   [WARN] Some stale types ([com.mycompany.mywebapp.App$1MyHandler, com.mycompany.mywebapp.App$1MyHandler$1, com.mycompany.mywebapp.App$1]) were not reprocessed as was expected. This is either a compiler bug or a Generator has legitimately stopped creating these types.
+   Compiling 1 permutation
+      Compiling permutation 0...
+      Linking per-type JS with 2 new/changed types.
+      Source Maps Enabled
+   Compile of permutations succeeded
+   Compilation succeeded -- 1,133s
+Linking into C:\Users\markos.pereira\PycharmProjects\mywebapp\target\gwt\codeserver\com.mycompany.mywebapp.App\compile-453\war\MyWebApp; Writing extras to C:\Users\markos.pereira\PycharmProjects\mywebapp\target\gwt\codeserver\com.mycompany.mywebapp.App\compile-453\extras\MyWebApp
+   Link succeeded
+   Linking succeeded -- 0,866s
+2,139s total -- Compile completed

@@ -1,0 +1,19 @@
+.panel {
+    background: #fff; border: 1px solid #e2e6ee; border-radius: 12px;
+    padding: 22px 24px; max-width: 760px;
+}
+.grid { display: flex; flex-wrap: wrap; gap: 16px; }
+.field { display: flex; flex-direction: column; gap: 6px; flex: 1 1 240px; }
+.fieldWide { flex: 1 1 100%; }
+.label { font-size: 12px; font-weight: 600; color: #3c4761; text-transform: uppercase; letter-spacing: .05em; }
+
+.input, .select, .textarea {
+    border: 1px solid #cbd3e1; border-radius: 8px; padding: 9px 11px;
+    font-size: 14px; font-family: inherit; width: 100%; box-sizing: border-box;
+}
+.input:focus, .select:focus, .textarea:focus { outline: 2px solid #16386b; border-color: #16386b; }
+.textarea { min-height: 96px; resize: vertical; }
+
+.actions { display: flex; gap: 10px; margin-top: 22px; }
+.save { background: #16386b; color: #fff; border: 0; border-radius: 8px; padding: 10px 20px; cursor: pointer; }
+.cancel { background: #fff; color: #3c4761; border: 1px solid #cbd3e1; border-radius: 8px; padding: 10px 20px; cursor: pointer; }

@@ -1,0 +1,18 @@
+binding: user.agent=safari
+Compiling module com.mycompany.mywebapp.App
+   Computing all possible rebind results for 'com.mycompany.mywebapp.ui.layout.MainLayout.MainLayoutUiBinder'
+      Rebinding com.mycompany.mywebapp.ui.layout.MainLayout.MainLayoutUiBinder
+         Invoking generator com.google.gwt.uibinder.rebind.UiBinderGenerator
+            The following problems were detected
+               [WARN] Line 31 column 7: encountered "(". Was expecting one of: <IDENT> 
+   Unification traversed 736 fields and methods and 389 types. 2 are considered part of the current module and 10 had all of their fields and methods traversed.
+   Compiling 1 permutation
+      Compiling permutation 0...
+      Linking per-type JS with 2 new/changed types.
+      Source Maps Enabled
+   Compile of permutations succeeded
+   Compilation succeeded -- 1,777s
+Linking into C:\Users\markos.pereira\PycharmProjects\mywebapp\target\gwt\codeserver\com.mycompany.mywebapp.App\compile-637\war\MyWebApp; Writing extras to C:\Users\markos.pereira\PycharmProjects\mywebapp\target\gwt\codeserver\com.mycompany.mywebapp.App\compile-637\extras\MyWebApp
+   Link succeeded
+   Linking succeeded -- 1,430s
+3,394s total -- Compile completed

@@ -1,0 +1,13 @@
+.cards { display: flex; flex-wrap: wrap; gap: 14px; margin-bottom: 18px; }
+
+.panel {
+    background: #fff; border: 1px solid #e2e6ee; border-radius: 12px;
+    padding: 18px 20px; margin-bottom: 16px;
+}
+.panelTitle { margin: 0 0 12px; font-size: 15px; color: #0f172a; }
+
+.progressTrack { height: 10px; background: #eef1f7; border-radius: 99px; overflow: hidden; }
+.progressBar { height: 100%; width: 0; background: #16386b; transition: width .3s ease; }
+.progressLabel { font-size: 12px; color: #6b7692; margin-top: 8px; display: block; }
+
+.activity { display: flex; flex-direction: column; gap: 10px; font-size: 14px; color: #3c4761; }
